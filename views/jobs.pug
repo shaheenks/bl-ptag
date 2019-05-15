@@ -1,0 +1,54 @@
+doctype html
+
+<html lang="en">
+  head
+    // Basic Page Needs
+    meta(charset="utf-8")
+    title="Photo Tagging Engine"
+    meta(name="description", content="Photo Tagging Engine")
+    meta(name="author", content="Shaheen")
+    
+    // Mobile specific metas
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    // Font
+    link(href="//fonts.googleapis.com/css?family=Raleway:400,300,600", rel="stylesheet", type="text/css")
+
+    // CSS
+    link(rel="stylesheet", href="css/normalize.css")
+    link(rel="stylesheet", href="css/skeleton.css")
+    link(rel="stylesheet", href="css/custom.css")
+
+    // Favicon
+    link(rel="icon", href="images/favicon.png" type="icon")
+
+  body
+    nav(class="navbar")
+      div(class="container")
+        ul(class="navbar-list")
+          li(class="navbar-item")
+            a(href="/", class="navbar-link")="Home"
+          li(class="navbar-item")
+            a(href="/upload", class="navbar-link")="Upload"
+          li(class="navbar-item")
+            a(href="/jobs", class="navbar-link")="Jobs"
+
+    div(class="container")
+      table(class="u-full-width")
+        thead
+          tr 
+            th="Job"
+            th="Upload"
+            th="Detect"
+            th="Metadata"
+            th="Index"
+        tbody
+          tr
+            td="2342342"
+            td="pending"
+            td="pending"
+            td="pending"
+            td="pending"
+                        
+
+// END OF DOCUMENT  
